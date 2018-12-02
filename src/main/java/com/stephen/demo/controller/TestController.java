@@ -33,7 +33,7 @@ public class TestController {
         int result = testService.insertTest(testEntity);
         if(result == 1){
             resMap.put("success",true);
-            resMap.put("msg","添加成功");
+            resMap.put("msg","添加成功了，哈哈哈");
 
         }else {
             resMap.put("success",false);
