@@ -42,7 +42,10 @@ public class TestController {
         return resMap ;
     }
 
-
+    @RequestMapping(value = "/hello")
+    public String hello(){
+        return "欢迎你个JAVA菜鸡，哈哈哈";
+    }
 
 
 
