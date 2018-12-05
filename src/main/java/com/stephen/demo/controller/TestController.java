@@ -44,7 +44,7 @@ public class TestController {
 
     @RequestMapping(value = "/hello")
     public String hello(){
-        return "欢迎你个JAVA菜鸡，哈哈哈";
+        return "欢迎你个JAVA菜鸡，哈哈哈。Are you sure I am aJAVA菜鸡!!!，哈哈哈.";
     }
 
 
